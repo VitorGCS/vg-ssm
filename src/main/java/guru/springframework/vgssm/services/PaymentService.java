@@ -10,6 +10,6 @@ public interface PaymentService {
 
     StateMachine<PaymentState, PaymentEvent> preAuth(Long payementId);
     StateMachine<PaymentState, PaymentEvent> authorizePayment(Long payementId);
-    StateMachine<PaymentState, PaymentEvent> declineAuth(Long payementId);
+//    StateMachine<PaymentState, PaymentEvent> declineAuth(Long payementId);
 
 }
